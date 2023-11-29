@@ -25,11 +25,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT8ReturnRandomValues", "A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT9IsNumberInsideRange", "ACT9IsNumberInsideRange\ACT9IsNumberInsideRange.csproj", "{7EDFEA0A-3A7D-4BF4-9566-5C35F80EAF0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT10GuessNumber", "ACT10GuessNumber\ACT10GuessNumber.csproj", "{48030F8D-F0C2-4F6B-9B52-84AB29B2A97F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT10GuessNumber", "ACT10GuessNumber\ACT10GuessNumber.csproj", "{48030F8D-F0C2-4F6B-9B52-84AB29B2A97F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT11FindFactorial", "ACT11FindFactorial\ACT11FindFactorial.csproj", "{BAB0FEBE-C4D1-434C-8D69-1CC03D562376}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT11FindFactorial", "ACT11FindFactorial\ACT11FindFactorial.csproj", "{BAB0FEBE-C4D1-434C-8D69-1CC03D562376}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT11FindFactorialTests", "ACT11FindFactorialTests\ACT11FindFactorialTests.csproj", "{026D852C-CAC5-4967-926C-80AEAA73743A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT11FindFactorialTests", "ACT11FindFactorialTests\ACT11FindFactorialTests.csproj", "{026D852C-CAC5-4967-926C-80AEAA73743A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT12GetCostOfWater", "ACT12GetCostOfWater\ACT12GetCostOfWater.csproj", "{E1C18238-EB9F-4D64-9A56-B9D2D1916C47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT13WhichAreEven", "ACT13WhichAreEven\ACT13WhichAreEven.csproj", "{7E3D24E1-15B1-47F4-8345-BC0D44B73248}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{026D852C-CAC5-4967-926C-80AEAA73743A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{026D852C-CAC5-4967-926C-80AEAA73743A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{026D852C-CAC5-4967-926C-80AEAA73743A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C18238-EB9F-4D64-9A56-B9D2D1916C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C18238-EB9F-4D64-9A56-B9D2D1916C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C18238-EB9F-4D64-9A56-B9D2D1916C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C18238-EB9F-4D64-9A56-B9D2D1916C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E3D24E1-15B1-47F4-8345-BC0D44B73248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E3D24E1-15B1-47F4-8345-BC0D44B73248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E3D24E1-15B1-47F4-8345-BC0D44B73248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E3D24E1-15B1-47F4-8345-BC0D44B73248}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
