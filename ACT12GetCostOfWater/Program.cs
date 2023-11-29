@@ -12,7 +12,7 @@ namespace ACT12
             const float FixedPriceToPay = 6;
             const float StartPrice = 0;
             const float MinPrice = 0.1f;
-            const float MaxPrice = 0.30f;
+            const float MaxPrice = 0.3f;
             const string AskAmountWaterUsed = "Cuantos litros de agua has usado: ";
             const string ShowFinalPrice = "Tendra que pagar la siguiente cantidad: ";
 
