@@ -62,16 +62,5 @@ namespace ACT13
         {
             return value % 2 == 0;
         }
-        /*public static bool areEven(int[] values)
-        {
-            for(int i = 0; i < values.Length; i++)
-            {
-                if (!isEven(values[i]))
-                {
-                    return false;
-                }
-            }
-            return true;
-        }*/
     }
 }
