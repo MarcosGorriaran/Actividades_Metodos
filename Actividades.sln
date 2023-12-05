@@ -31,11 +31,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT11FindFactorial", "ACT11
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT11FindFactorialTests", "ACT11FindFactorialTests\ACT11FindFactorialTests.csproj", "{026D852C-CAC5-4967-926C-80AEAA73743A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT12GetCostOfWater", "ACT12GetCostOfWater\ACT12GetCostOfWater.csproj", "{E1C18238-EB9F-4D64-9A56-B9D2D1916C47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT12GetCostOfWater", "ACT12GetCostOfWater\ACT12GetCostOfWater.csproj", "{E1C18238-EB9F-4D64-9A56-B9D2D1916C47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT13WhichAreEven", "ACT13WhichAreEven\ACT13WhichAreEven.csproj", "{7E3D24E1-15B1-47F4-8345-BC0D44B73248}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT13WhichAreEven", "ACT13WhichAreEven\ACT13WhichAreEven.csproj", "{7E3D24E1-15B1-47F4-8345-BC0D44B73248}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT14SplitAndSum", "ACT14SplitAndSum\ACT14SplitAndSum.csproj", "{DDEF82B9-1331-4E2C-B3CB-08C0E56B3A64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT14SplitAndSum", "ACT14SplitAndSum\ACT14SplitAndSum.csproj", "{DDEF82B9-1331-4E2C-B3CB-08C0E56B3A64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT15IsTransitionalDate", "ACT15IsTransitionalDate\ACT15IsTransitionalDate.csproj", "{A012C5B5-9A9D-44CE-A02C-2E059006022D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT16GetProduct", "ACT16GetProduct\ACT16GetProduct.csproj", "{600E7533-4B06-414A-9EFF-32E1D8E1CF5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +115,14 @@ Global
 		{DDEF82B9-1331-4E2C-B3CB-08C0E56B3A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDEF82B9-1331-4E2C-B3CB-08C0E56B3A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDEF82B9-1331-4E2C-B3CB-08C0E56B3A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A012C5B5-9A9D-44CE-A02C-2E059006022D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A012C5B5-9A9D-44CE-A02C-2E059006022D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A012C5B5-9A9D-44CE-A02C-2E059006022D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A012C5B5-9A9D-44CE-A02C-2E059006022D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600E7533-4B06-414A-9EFF-32E1D8E1CF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600E7533-4B06-414A-9EFF-32E1D8E1CF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600E7533-4B06-414A-9EFF-32E1D8E1CF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600E7533-4B06-414A-9EFF-32E1D8E1CF5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
