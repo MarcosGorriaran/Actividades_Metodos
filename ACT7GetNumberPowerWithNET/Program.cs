@@ -10,8 +10,7 @@ namespace ACT7GetNumberPower
             const string AskExponent = "Proporcioname el exponente del calculo: ";
             const string ShowResult = "La potencia final es: ";
 
-            int value;
-            int exponent;
+            int value, exponent;
 
             Console.Write(AskValue);
             value = Convert.ToInt32(Console.ReadLine());

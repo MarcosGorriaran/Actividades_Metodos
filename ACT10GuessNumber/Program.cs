@@ -10,9 +10,9 @@ namespace ACT10GetNumberPower
             const string AskValue = "Puedes adivinar el numero aleatorio entre {0}-{1}: ";
             const string InList = "El valor esta en la lista";
             const string NotInList = "El valor no esta en la lista";
-
-            int[] guessList = GenerateRandomNumbers(MinRange, MaxRange);
+            
             int userGuess;
+            int[] guessList = GenerateRandomNumbers(MinRange, MaxRange);
 
             Console.Write(AskValue,MinRange,MaxRange);
             userGuess = Convert.ToInt32(Console.ReadLine());

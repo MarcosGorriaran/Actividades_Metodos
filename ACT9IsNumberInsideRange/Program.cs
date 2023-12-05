@@ -65,22 +65,5 @@ namespace ACT9GetNumberPower
                 secondValue = aux;
             }
         }
-
-        /*public static int[] SortArrayAsc(int[] values)
-        {
-            for(int i = 0; i < values.Length -1; i++)
-            {
-                for(int j = i + 1; j < values.Length; j++)
-                {
-                    if (values[i] > values[j])
-                    {
-                        int aux = values[i];
-                        values[i] = values[j];
-                        values[j] = aux;
-                    }
-                }
-            }
-            return values;
-        }*/
     }
 }
