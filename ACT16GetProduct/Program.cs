@@ -10,7 +10,7 @@ namespace ACT15
         }
         public static bool InRange(int)
         {
-
+            return true;
         }
     }
 }
