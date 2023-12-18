@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="FunctionUtilities">
+      <HintPath>..\..\FunctionUtilities\bin\Debug\net7.0\FunctionUtilities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
