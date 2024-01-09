@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT15IsTransitionalDate", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT16GetProduct", "ACT16GetProduct\ACT16GetProduct.csproj", "{600E7533-4B06-414A-9EFF-32E1D8E1CF5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT17CelsiusToFahrenheit", "ACT17CelsiusToFahrenheit\ACT17CelsiusToFahrenheit.csproj", "{160E074C-51C2-498B-8139-18071111C2FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT17CelsiusToFahrenheit", "ACT17CelsiusToFahrenheit\ACT17CelsiusToFahrenheit.csproj", "{160E074C-51C2-498B-8139-18071111C2FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT24RussianMaths", "ACT24RussianMaths\ACT24RussianMaths.csproj", "{5439BE51-0854-4217-8A34-2BB1C5CEFE38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{160E074C-51C2-498B-8139-18071111C2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{160E074C-51C2-498B-8139-18071111C2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{160E074C-51C2-498B-8139-18071111C2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5439BE51-0854-4217-8A34-2BB1C5CEFE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5439BE51-0854-4217-8A34-2BB1C5CEFE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5439BE51-0854-4217-8A34-2BB1C5CEFE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5439BE51-0854-4217-8A34-2BB1C5CEFE38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
