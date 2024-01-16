@@ -53,6 +53,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT31GameModules", "ACT31Ga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT29FindWordInText", "ACT29FindWordInText\ACT29FindWordInText.csproj", "{A6AF486C-46A9-4470-A92F-77D107B26620}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT32Super4Game", "ACT32Super4Game\ACT32Super4Game.csproj", "{CCDA8155-5D0A-4BEC-868D-1930297FFF59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT32Super4GameTests", "ACT32Super4GameTests\ACT32Super4GameTests.csproj", "{40C51D7C-6CD3-4FC5-93D3-0321D0635349}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{A6AF486C-46A9-4470-A92F-77D107B26620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6AF486C-46A9-4470-A92F-77D107B26620}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6AF486C-46A9-4470-A92F-77D107B26620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCDA8155-5D0A-4BEC-868D-1930297FFF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDA8155-5D0A-4BEC-868D-1930297FFF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDA8155-5D0A-4BEC-868D-1930297FFF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDA8155-5D0A-4BEC-868D-1930297FFF59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C51D7C-6CD3-4FC5-93D3-0321D0635349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C51D7C-6CD3-4FC5-93D3-0321D0635349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C51D7C-6CD3-4FC5-93D3-0321D0635349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C51D7C-6CD3-4FC5-93D3-0321D0635349}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
