@@ -4,7 +4,44 @@
     {
         public static void Main()
         {
+            const int MinEvil = 1000, MaxEvil = 50000, MaxChar=4, VocalAmountLimit = 2, PartyAmount = 4, PercentToExtract=5;
+            const string TargetWords = "aeiou";
+            const string AskChar = "Elige uno de los siguientes personajes [1-{0}]: ";
+            const string AskName = "Proporcioname el nombre del personaje: ";
+            const string AskEvilAmount = "Proporcioname la maldad del personaje dentro del rango permitido [{0}, {1}]: ";
+            const string EvilAmountExchanged = "Espurna extra {0} de maldad del malvado y lo pasa a todos los miembros de super 4 dejando al malvado con {1} de maldad.";
 
+            bool error;
+            int charAvatar, charEvilAmount, evilExtracted, amountVocals;
+            string charName;
+            do
+            {
+                Console.Write(AskChar, MaxChar);
+                charAvatar = Convert.ToInt32(Console.ReadLine());
+                error = !InRange(charAvatar, 1, MaxChar);
+                if (error)
+                {
+                    //Write Error Msg
+                }
+            } while (error);
+            
+            Console.Write(AskName);
+            charName = Console.ReadLine();
+            
+            do
+            {
+                Console.Write(AskEvilAmount, MinEvil, MaxEvil);
+                charEvilAmount = Convert.ToInt32(Console.ReadLine());
+                error = !InRange(charEvilAmount, MinEvil, MaxEvil);
+                if (error)
+                {
+                    //Write Error Msg
+                }
+            } while (error);
+
+            amountVocals = ContainsWordGroup(charName.ToLower(), TargetWords.ToCharArray());
+            evilExtracted = amountVocals >= VocalAmountLimit ? SplitBetweenGroup(PartyAmount,charEvilAmount) : SplitBetweenGroup(PartyAmount, ExtractPercentAmount(charEvilAmount, PercentToExtract));
+            Console.WriteLine(EvilAmountExchanged, evilExtracted*PartyAmount, charEvilAmount-evilExtracted*PartyAmount);
         }
         public static int ContainsWordGroup(string text, params char[] targetWords) 
         {
@@ -23,18 +60,18 @@
             }
             return false;
         }
-        public static float SplitBetweenGroup(int amountTargets, int splitObject)
+        public static int SplitBetweenGroup(int amountTargets, int splitObject)
         {
-            
-            return 0;
+            return Convert.ToInt32(Math.Truncate((decimal)splitObject/amountTargets));
         }
         public static int ExtractPercentAmount(int extractObject, int percentualValue)
         {
-            return 0;
+            const int TopPercent = 100;
+            return Convert.ToInt32(Math.Truncate((decimal)(extractObject*percentualValue)/TopPercent));
         }
         public static bool InRange(int checkValue ,int minRange, int maxRange)
         {
-            return false;
+            return checkValue>=minRange && checkValue<=maxRange;
         }
     }
 }

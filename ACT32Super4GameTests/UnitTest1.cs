@@ -11,7 +11,7 @@ namespace ACT32Super4GameTests
             char[] searchTarget = new char[] {'a','e','i','o','u'};
             string searchName = "Caiman";
 
-            result = Execute.ContainsWordGroup(searchName);
+            result = Execute.ContainsWordGroup(searchName, searchTarget);
 
             Assert.AreEqual(expected, result);
         }
@@ -22,17 +22,17 @@ namespace ACT32Super4GameTests
             char[] searchTarget = new char[] { 'a', 'e', 'i', 'o', 'u' };
             string searchName = "";
 
-            result = Execute.ContainsWordGroup(searchName);
+            result = Execute.ContainsWordGroup(searchName, searchTarget);
 
             Assert.AreEqual(expected, result);
         }
         [TestMethod]
         public void SplitBetweenGroup()
         {
-            float result, expected= 1250.75f;
+            int result, expected= 1250;
             int darknessCase = 5003, amountGroupMembers = 4;
 
-            result = Execute.SplitBetweenGroup(darknessCase, amountGroupMembers);
+            result = Execute.SplitBetweenGroup(amountGroupMembers, darknessCase);
 
             Assert.AreEqual(expected, result);
         }
